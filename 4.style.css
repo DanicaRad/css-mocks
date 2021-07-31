@@ -1,5 +1,5 @@
 
-/* Exercise 5... i think this is wrong */
+/* Exercise 4 */
 body {
   margin: 0;
   border: 5px solid black;
@@ -11,7 +11,7 @@ body {
   width: 400px;
   height: 400px;
   background-color: red;
-  position: static;
+  position: absolute;
 }
 
 .two {
@@ -28,15 +28,15 @@ body {
   height: 200px;
   background-color: green;
   position: absolute;
-  right: 100px;
-  bottom: 300px;
+  right: 200px;
+  bottom: 200px;
 }
 
 .four {
   width: 100px;
   height: 100px;
   background-color: blue;
-  position: fixed;
-  top: 0px;
-  left: 0px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
 } 
