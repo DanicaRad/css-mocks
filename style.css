@@ -19,8 +19,6 @@ body {
   height: 300px;
   background-color: yellow;
   position: relative;
-  top: 100px;
-  left: 100px;
 }
 
 .three {
@@ -28,8 +26,8 @@ body {
   height: 200px;
   background-color: green;
   position: relative;
-  right: 100px;
-  bottom: 100px;
+  top: 200px;
+  left: 400px;
 }
 
 .four {
@@ -37,6 +35,5 @@ body {
   height: 100px;
   background-color: blue;
   position: absolute;
-  right: 0px;
   bottom: 0px;
 } 
